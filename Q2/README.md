@@ -1,4 +1,4 @@
-Question 2: Do django signals run in the same thread as the caller?
+# Question 2: Do django signals run in the same thread as the caller?
 
 -- Yes, django signals run in the same thread as the caller.
 
