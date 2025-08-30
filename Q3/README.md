@@ -1,4 +1,4 @@
-Q3. By default do django signals run in the same database transaction as the caller?
+# Q3. By default do django signals run in the same database transaction as the caller?
 
 -- Yes, by default, django signals run in the same database transaction as the caller.
 
