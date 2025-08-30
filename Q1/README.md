@@ -8,6 +8,8 @@ Question 1: By default are django signals executed synchronously or asynchronous
 
 -- Django does not provide built-in asynchronous signals. 
 
+-- All the receivers connected to the post_save signal are executed one after the other synchronously.
+
 -- If one needs asynchronous execution, they can implement it with Celery, threading or async tasks.
 
 
@@ -21,3 +23,4 @@ OUTPUT:
 -- Since the two receivers are connected they are executed after one another
 
 -- List2 waits for List1 to be completed, since they share the same thread.
+
