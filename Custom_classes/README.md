@@ -10,8 +10,6 @@ followed by the width {width: <VALUE_OF_WIDTH>}
 
 Algorithm:
 
-**Algorithm for Rectangle Class**
-
 **Step 1: Define the class**  
 - Creating a class named **`Rectangle`**.
 
