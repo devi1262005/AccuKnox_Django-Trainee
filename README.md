@@ -3,16 +3,14 @@
 Questions: 
 Topic: Django Signals
 
-Q1: By default are django signals executed synchronously or asynchronously? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+Q1: By default are django signals executed synchronously or asynchronously?
 
-Q2: Do django signals run in the same thread as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
+Q2: Do django signals run in the same thread as the caller? 
 
-Q3: By default do django signals run in the same database transaction as the caller? Please support your answer with a code snippet that conclusively proves your stance. The code does not need to be elegant and production ready, we just need to understand your logic.
-
+Q3: By default do django signals run in the same database transaction as the caller? 
 
 
 Topic: Custom Classes in Python
-
 Description: You are tasked with creating a Rectangle class with the following requirements:
 
 An instance of the Rectangle class requires length:int and width:int to be initialized.
