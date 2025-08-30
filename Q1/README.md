@@ -11,9 +11,9 @@ Question 1: By default are django signals executed synchronously or asynchronous
 -- If one needs asynchronous execution, they can implement it with Celery, threading or async tasks.
 
 
-OUTPUT 
+OUTPUT:
 
-![Alt text](images/Output-Q1.png)
+![Output Q1](https://raw.githubusercontent.com/devi1262005/AccuKnox_Django-Trainee/093d9ae77fac90f267f225451992d06258e77f11/images/Output-Q1.png)
 
 
 -- The output shows list1 being printed in one receiver, and list2 printed in other receiver
