@@ -1,4 +1,4 @@
-AccuKnox_Django-Trainee
+# AccuKnox_Django-Trainee
 
 Questions: 
 Topic: Django Signals
