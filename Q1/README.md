@@ -1,4 +1,4 @@
-Question 1: By default are django signals executed synchronously or asynchronously?
+# Question 1: By default are django signals executed synchronously or asynchronously?
 
 -- By default, Django signals are executed synchronously. 
 
