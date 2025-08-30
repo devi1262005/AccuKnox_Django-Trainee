@@ -1,0 +1,20 @@
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+from .models import Book
+
+list1 = ["apple", "banana", "orange"]
+list2 = ["lily", "tulips", "roses"]
+
+@receiver(post_save, sender=Book)
+def signal_one(sender, instance, **kwargs):
+    print("Signal 1 start")
+    for item in list1:
+        print(item)
+    print("Signal 1 end\n")
+
+@receiver(post_save, sender=Book)
+def signal_two(sender, instance, **kwargs):
+    print("Signal 2 start")
+    for item in list2:
+        print(item)
+    print("Signal 2 end\n")
