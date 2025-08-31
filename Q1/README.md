@@ -18,9 +18,9 @@ OUTPUT:
 ![Output Q1](https://raw.githubusercontent.com/devi1262005/AccuKnox_Django-Trainee/093d9ae77fac90f267f225451992d06258e77f11/images/Output-Q1.png)
 
 
--- The output shows list1 being printed in one receiver, and list2 printed in other receiver
+-- The output shows list1 being printed by one receiver, and list2 printed by other receiver.
 
--- Since the two receivers are connected they are executed after one another
+-- If they had been asychronous by default, then the list values would have overlapped which isn't the case.
 
--- List2 waits for List1 to be completed, since they share the same thread.
+-- List2 waits for List1 to be completed, since they are synchronous.
 
